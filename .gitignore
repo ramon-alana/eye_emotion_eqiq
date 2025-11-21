@@ -1,0 +1,109 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+!requirements.txt
+
+# Data (keep structure but ignore large files)
+data/raw/**/*.jpg
+data/raw/**/*.png
+data/raw/**/*.jpeg
+data/processed/**/*.jpg
+data/processed/**/*.png
+data/processed/**/*.jpeg
+data/demo_output/**/*.jpg
+data/demo_output/**/*.png
+*.zip
+*.tar.gz
+
+# Checkpoints (keep structure)
+checkpoints/*.pt
+!checkpoints/.gitkeep
+
+# Logs
+*.log
+logs/
+wandb/
+tensorboard/
+
+# Model outputs
+outputs/
+results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Large datasets
+archive.zip
+*.h5
+*.hdf5
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/demo_output/.gitkeep
+!checkpoints/.gitkeep
+
+# Generated reports and user data
+data/reports/*.md
+data/reports/*.json
+!data/reports/.gitkeep
+
+# User uploaded demo images
+data/demo_images/*.jpg
+data/demo_images/*.jpeg
+data/demo_images/*.png
+!data/demo_images/README.md
+!data/demo_images/.gitkeep
+
+# Generated metadata with labels (can be large)
+data/processed/**/metadata_with_labels.csv
+
+# Temporary test files
+scripts/test_face_detection.py
+
